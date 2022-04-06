@@ -1,0 +1,117 @@
+.header {
+    background-color: #4c0c5c;
+    color: white;
+    font-size: small;
+    height: 400px;
+
+}
+#navigation {
+    font-size: smaller;
+    font-family: quintessential;
+    background-color: #4C0C47;
+    text-align: center;
+    font-size: small;
+}
+.intro {
+    text-align: center;
+    font-family: quintessential;
+    font-size: small;
+}
+.body {
+    font-family: quintessential;
+    text-align: center;
+    font-size: small;
+    line-height: 20px;
+}
+.skills_card { 
+    display:flex;
+
+    ;
+}
+.footer {
+    background-color: #4c0c5c;
+    color: white;
+    font-family: quintessential;
+    font-size: small;
+    line-height: 20px;
+    height: 220px;
+}
+#Enter_fullname {
+    width: 400px;
+    padding: 4px;
+    font-family: quintessential;
+    margin: 5px;
+    font-size: xx-small;
+}
+#Enter_email {
+    width: 400px;
+    padding: 4px;
+    font-family: quintessential;
+    margin: 5px;
+    font-size: xx-small;
+}
+#input_content{
+    width: 400px;
+    padding: 4px;
+    font-family: quintessential;
+    margin: 5px;
+}
+
+#submit {
+    width: 413px;
+    padding: 4px;
+    font-family: quintessential;
+    margin: 5px;
+    font-size: xx-small;
+}
+#submit :disabled {
+    opacity: 0.8;
+}
+button:hover {
+    transform: scale(1.0);
+    background-color: rgb(152, 70, 152);
+    border-color: rgb(152, 70, 152);
+}
+@media(max-width:425px) {
+    .header { 
+        background-color: #4c0c5c;
+        color: white;
+        font-size: small;
+        width: 600px;
+    }
+    @media(max-width:425px) {
+    .body {
+        font-family: quintessential;
+        text-align: center;
+        font-size: small;
+        line-height: 20px;
+        width: 590px;
+    }
+}
+    @media(max-width:425px) {
+    .footer {
+        background-color: #4c0c5c;
+        color: white;
+        font-family: quintessential;
+        font-size: small;
+        line-height: 20px;
+        height: 220px;
+        width: 600px;
+    }
+    }
+}
+@media(min-width:1000px) {
+    .skills_card{
+        display: flex;
+        border-radius: 10px;
+        width: 1000px;
+    }
+}
+ a:link {
+     text-decoration: none;
+     color: white;
+}
+ a:hover {
+     color: blue;
+     transform: scale(1.1);
+ }
