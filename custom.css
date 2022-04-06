@@ -103,7 +103,7 @@ button:hover {
 @media(min-width:1000px) {
     .skills_card{
         display: flex;
-        border-radius: 10px;
+        border-radius: 30px;
         width: 1000px;
     }
 }
