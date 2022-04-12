@@ -25,8 +25,9 @@
 }
 .skills_card { 
     display:flex;
+    justify-content: space-evenly;
+    font-weight:bold;
 
-    ;
 }
 .footer {
     background-color: #4c0c5c;
@@ -34,7 +35,7 @@
     font-family: quintessential;
     font-size: small;
     line-height: 20px;
-    height: 220px;
+    height: 240px;
 }
 #Enter_fullname {
     width: 400px;
@@ -63,6 +64,7 @@
     font-family: quintessential;
     margin: 5px;
     font-size: xx-small;
+    cursor: pointer;
 }
 #submit :disabled {
     opacity: 0.8;
@@ -77,9 +79,9 @@ button:hover {
         background-color: #4c0c5c;
         color: white;
         font-size: small;
-        width: 600px;
+        width: 580px;
     }
-    @media(max-width:425px) {
+ @media(max-width:425px) {
     .body {
         font-family: quintessential;
         text-align: center;
@@ -88,7 +90,7 @@ button:hover {
         width: 590px;
     }
 }
-    @media(max-width:425px) {
+@media(max-width:425px) {
     .footer {
         background-color: #4c0c5c;
         color: white;
@@ -96,22 +98,14 @@ button:hover {
         font-size: small;
         line-height: 20px;
         height: 220px;
-        width: 600px;
+        width: 580px;
     }
     }
 }
-@media(min-width:1000px) {
-    .skills_card{
-        display: flex;
-        border-radius: 30px;
-        width: 1000px;
-    }
-}
- a:link {
+a:link {
      text-decoration: none;
-     color: white;
+     color: black;
 }
- a:hover {
+ a:hover{
      color: blue;
-     transform: scale(1.1);
  }
